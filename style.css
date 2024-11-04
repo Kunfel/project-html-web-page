@@ -1,0 +1,190 @@
+*{
+    font-family: sans-serif ;
+}
+
+.Container{
+    margin: auto;
+    width: 70%;
+   /* text-align: left;*/
+    padding-inline: 20px;
+    background-color: #f4f4f4 ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px  ;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav > *:not(:first-child), button{
+    margin-left: 10px;
+}
+
+button{
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #8053FF;
+    color: #f4f4f4;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3{
+    color: #8053FF;
+}
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Statistics{
+    text-align: center;
+    padding: 1em;
+    background:;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.stat{
+    display: flex;
+    justify-content:center;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.stat > div{
+    background: #ffffff;
+    width: 200px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.FeaturesCoders{
+    margin-top: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 700px;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.FeaturesManagers{
+    margin-top: 80px;
+}
+
+.Showcase{
+   margin-top: 40px;
+}
+
+.Showcase img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    padding: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.Showcase > div{
+   position: relative;
+   width: 450px;
+   left: 500px;
+   top: -400px;
+}
+
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -50px;
+}
+
+.Testimonials >div{
+    width: 300px;
+    background-color:#ffff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center; 
+    box-shadow: 3px 3px 15px 0px rgba(73, 34, 2, 0.2);
+    
+}
+
+.Testimonials > div > img{
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Footer{
+    height: 300px;
+    background-color: #23155B;
+    color: #f4f4f4;
+    border-top-left-radius: 80px; 
+}
+
+form {
+    position: relative;
+    left: 50px;
+    font-size: 15px;
+    top: 30px;
+}
+
+input {
+    padding-inline: 20px;
+}
+
+textarea{
+    padding-inline: 22px;
+}
+
+.button{
+  margin-left: -10px;
+  padding-top: 5px;
+}
+
+.Copy {
+    text-align: center;
+    position:relative;
+    top: 55px;
+}
+
+
+@media screen and (min-width: 375px) {
+    .Container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
