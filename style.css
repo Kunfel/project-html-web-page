@@ -4,7 +4,7 @@
 
 .Container{
     margin: auto;
-    width: 70%;
+    width: 50%;
    /* text-align: left;*/
     padding-inline: 20px;
     background-color: #f4f4f4 ;
@@ -179,12 +179,20 @@ textarea{
 .Copy {
     text-align: center;
     position:relative;
-    top: 55px;
+    top: 5px;
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .Container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    .Testimonials > div {
+        width: 100%;
     }
 }
